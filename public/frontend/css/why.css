@@ -1,0 +1,39 @@
+
+.logoborder{
+
+    height: 410px;
+}
+.header{
+    font-weight: bold;
+}
+.header2{
+    margin-left:0;
+    width:100%;
+}
+.header1{
+    margin-top:0;
+    color: orange;
+    font-weight: bold;
+}
+.para1{
+    padding-top: 2px;
+    color:#170047;
+}
+.group{
+    margin-top: 60px;
+    border:1px solid black;
+    width: 315px;
+    height: 200px;
+}
+.txt1{
+    color:#170047;
+}
+.first_col{
+    margin-right: 30px;
+}
+.col-sm-6 h4{
+    color:#170047;
+}
+.header2 img{
+    width: 100%;
+}

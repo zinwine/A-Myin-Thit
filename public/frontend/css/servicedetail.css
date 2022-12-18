@@ -1,0 +1,69 @@
+.ser_head {
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    background-color: #ffe;
+}
+
+.ser_head h2 {
+    line-height: 50px;
+    font-family: Geogria, Times New Roman, Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.servicelist h4 {
+    font: italic bold 20px Geogria, Times New Roman, Times, serif;
+}
+
+.servicelist {
+    box-shadow: 1px 1px 2px gray;
+    margin: 0 3%;
+    padding-top: 0;
+}
+
+.showsevice {
+    height: 140px;
+    padding: 0 !important;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+@media (min-width: 990px ) and (max-width: 1160px) {
+    .showsevice {
+        height: 160px;
+    }
+}
+
+.servicedetail p {
+    padding-left: 15px;
+}
+
+.showsevice:hover {
+    box-shadow: 1px 1px 8px gray;
+    border-bottom: 0 solid #757575;
+    cursor: pointer;
+    background-color: #fef;;
+}
+
+.servicelist h2 {
+    text-align: center;
+}
+
+.service_detail img {
+    width: 100%;
+}
+
+.service_detail p {
+    padding: 8px;
+}
+
+.media-left {
+    line-height: 140px;
+}
+
+.showsevice .media-left img {
+    width: 60px !important;
+    height: 60px !important;
+/ / this is not work
+}
+

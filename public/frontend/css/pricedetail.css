@@ -1,0 +1,44 @@
+
+.pricedetailrowone{
+    border: 1px solid #ccc;
+}
+.pricedetailrowone .fp,.fv,.sv,.td{
+    color: grey;
+    text-align: center;
+}
+
+.pricedetailrowone img{
+    width: 200px;
+    height: 200px;
+    border:1px solid #ccc;
+    transition: all .8s linear;
+}
+.imaff{
+    width: 200px;
+    height:200px;
+    overflow: hidden;
+    margin-left: 30px;
+    background-color: red;
+    border: 1px solid grey;
+}
+@media (max-width: 768px) {
+    .imaff{
+        margin-left: 70px;
+    }
+}
+.pricedetailrowone img:hover{
+    transform: scale(1.2);
+    position: relative;
+    border:2px solid grey;
+}
+@media only screen and (max-width: 700px){
+    .floor_plan {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .floor_plan,.front_view,.side_view,.threeD {
+        width: 100%;
+    }
+}

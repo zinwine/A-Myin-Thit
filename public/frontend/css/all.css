@@ -1,0 +1,44 @@
+.container .title{
+    text-indent: 10px;
+}
+.mytab-content{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+.nav-tabs {
+    border-bottom: 1px solid orange;
+}
+.nav-tabs>li.active>a{
+    background:#eee;
+    color: #006064;
+}
+.mytab ul li a{
+    background: orange;
+}
+.mytab ul li a:visited{
+    background: gray;
+}
+.my_nav li {
+    font-size: 17px;
+}
+.alltap .mytab{
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.my-image{
+    width: 450px !important;
+    height: 200px !important;
+}
+.fonttap{
+    font-size: 15px;
+}
+@media  (max-width: 768px){
+  .mytab ul li .pa{
+      font-size: 10px;
+  }
+}
+ .proj{
+    color: black;
+}

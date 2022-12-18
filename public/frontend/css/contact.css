@@ -1,0 +1,114 @@
+
+#company{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #286090;
+    font-family: cursive;
+    text-align: center;
+}
+#contact{
+    color: #286090;
+    font-weight:bolder;
+    margin-top: 20px;
+    
+}
+#name{
+    margin-top:20px;
+}
+.form-group p{
+    color: white;
+}
+.my_social >.fa{
+   padding: 12px;
+    border-radius: 7px;
+}
+.cont_map{
+    width: 500px;
+    height:80px;
+    border:1px solid white;
+    border-radius: 30px;
+    margin :20px 45px ;
+}
+.cont_info > p{
+    padding-left: 10%;
+   font-weight: bolder;
+    color: #333333;
+
+}
+
+.cont_info span{
+    color: orange;
+}
+.my_social{
+    margin-left: 33px; 
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+  .my_social .ee{
+    background-color:#0d47a1;
+    opacity: 0.5;
+    transition: 1s;
+    
+ }
+ .my_social .ee:hover{
+    opacity: 1;
+ }
+ .ff{
+    background-color:firebrick;
+    color: white;
+    opacity: 0.5;
+    transition: 1s;
+ }
+ .ff:hover{
+    opacity: 1;
+ }
+ .gg:hover{
+     opacity: 1;
+ }
+ .hh:hover{
+     opacity: 1;
+ }
+ .gg{
+    background-color:deepskyblue;
+    opacity: 0.5;
+    transition: 1s;
+ }
+ .hh{
+    background-color:darkgray;
+     color:firebrick;
+     opacity: 0.5;
+    transition: 1s;
+ } 
+.clocations{
+   margin-left: 30px;
+    margin-bottom:50px;
+    width:500px;
+    height:320px;
+    border:1px solid grey;
+ }
+@media (max-width: 768px ){
+    .clocations{
+        width: 80%;
+    }
+}
+@media (max-width: 1200px){
+    .clocations{
+        width: 80%;
+        height:320px;
+    }
+}
+.clocations{
+    margin-left: 50px;
+}
+@media(max-width: 448px){
+    .contactTitle{
+        visibility: hidden;
+    }
+    .clocations{
+        margin-left: 20px;
+        width: 90%;
+    }
+}

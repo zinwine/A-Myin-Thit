@@ -1,0 +1,15 @@
+.container .thumbnail .pull-right{
+	background-color: orange;
+	border-radius: 5px;
+}
+.viewdetails{
+	height: 30px;
+
+}
+.thumbnail{
+	padding-bottom: 20px;
+}
+.blogs{
+	width: 100%;
+	height: 250px !important;
+}

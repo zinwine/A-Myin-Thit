@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}  /*Who we are*/
+    .all-border{
+            margin-top: 20px;
+        }
+    .all-border  h2{
+        font:italic bold 29px Geogria,Times New Roman,Times,serif;
+    }
+/* end who we are*/
+button{
+    outline: none;
+}
+.blink:hover {
+    color: whitesmoke;
+}
+
+.why p{
+    padding-top: 10px;
+}
+@media (max-width: 1200px) {
+    .why p{
+        padding-top: 0;
+    }
+}
+.jumborton{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('../photo/back/back - Copy.jpg');
+    color:white;
+    width:100%;
+    height:500px;
+    font-size: 20px;
+    padding-left:20px;
+    overflow: hidden;
+    margin-top: -50px;
+    z-index: 0;
+}
+@media (max-width: 768px){
+    .jumborton{
+        margin-top: -62px;
+    }
+}
+
+.jumborton .am{
+    padding-top:50px;
+}
+.jumborton a{
+    margin-top: 0;
+    margin-left: 250px;
+}
+@media (max-width: 500px) {
+    .jumborton a{
+        margin-left: 60px;
+
+    }
+}
+@media (max-width: 258px){
+    .jumborton a{
+        margin-left: 30px;
+    }
+}
+
+.navbar{
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    background: rgba(0, 0, 0, 0.7);
+    z-index:1 ;
+
+}
+.navbar-header .logo{
+    height: 50px !important;
+    text-align: center;
+    padding: 2px 0 2px 0;
+}
+#myNavbar li a{
+    color: orange;
+    display: block;
+}
+.dropdown span:hover{
+    color:#000;
+}
+
+#myNavbar li a:hover, #myNavbar li a:active, #myNavbar li a:focus{
+    background-color: orange !important;
+    opacity: 0.7;
+    color:#000;
+    font-weight:bold;
+    padding-left:20px;
+}
+
+#myNavbar li a{
+    transition: 700ms;
+}
+.dropdown span{
+    color: orange;
+}
+
+/* Hover Effects */
+.sections .thumbnail{
+    transition: 1s;
+}
+.sections .thumbnail:hover{
+    background-color: rgba(10,0,10,0.5);
+    color: white;
+    /*  box-shadow: 2px 0px 7px black; */
+
+    /* transform: rotateY(-180deg) rotateY(0deg); */
+}
+
+
+.a{
+    position: absolute;
+    transition: 2s;
+}
+.a:hover{
+    opacity: 0;
+}
+.pag{
+    text-align: justify;
+    margin-top: 60px;
+}
+.pag .title{
+    color: orange;
+    font-size: 40px;
+
+}
+@media (max-width: 500px) {
+    .pag .title{
+        font-size: 30px;
+
+    }
+}
+a:active{
+    outline: none;
+    border:none;
+}
+/*p{
+    font-weight: bold;
+}*/
+.full-header .row{
+    padding: 20px 0;
+}
+.full-header .icon{
+    float: left;
+    margin-right: 5px;
+}
+.full-header .icon i{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    border:1px solid darkorange;
+    border-radius: 100%;
+}
+.title{
+    font-size: 16px;
+    color: #515151;
+    font-weight: bold;
+}
+.full-header .btn-book{
+    width: 150px;
+    line-height:40px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 5px;
+}
+.icon-bar{
+    background-color: white;
+}
+
+/*.active{
+    background-color: orange !important;
+}*/
+.dropdown .dropdown-menu{
+    background-color: #000;
+    padding-top: 0;
+}
+.dropdown .dropdown-menu ul{
+    /*background-color: #396b6d;*/
+
+}
+.dropdown .dropdown-menu li{
+    margin:0;
+}
+.dropdown .dropdown-menu li a{
+    line-height: inherit;
+    padding:10px 10px;
+}
+.slide-img{
+    position: relative;
+}
+#top{
+    width: 30px;
+    line-height: 30px;
+    background-color: grey;
+    text-align: center;
+    outline: 0;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    opacity: 0;
+    z-index: 3;
+    cursor: pointer;
+}
+#top:hover{
+    background-color: orange;
+    color:white;
+}
+
+/*Service*/
+
+  .service h1{
+     font: bold 29px Georgia,Times New Romanm,Times,serif;
+  }
+  .serviceHeading h4{
+      font: bold 17px Geogria,Times New Roman,Times,san-serif;
+  }
+  .serviceHeading p{
+      text-align: justify;
+  }
+
+/* Our Partenrs */
+
+.partaners{
+    background-color: #eee;
+    margin-top: 50px;
+}
+
+/*
+            end Our partenrs */
+
+/* Start Section */
+
+.sections{
+    margin-top: -60px;
+    transition: 1s;
+}
+.index .thumbnail img{
+    padding-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+.thumbnail #setion{
+    padding-top: 20px;
+}
+.sections p{
+    padding-top: 20px;
+}
+
+/* end Section */
+
+/* Service */
+.service img{
+    width: 90px;
+    height: 90px;
+}
+.service{
+    background-color: #ddd;
+}
+
+.section p #setion{
+    padding-top: 50px;
+}
+/*  end Service */
+
+/* start Why */
+
+.why{
+    margin-top: 10px;
+}
+
+.why h1{
+     font:italic bold 29px Georgia,Times New Romanm,Times,serif;
+}
+
+.why p{
+    font-size: 17px;
+}
+.mission{
+    margin-top: 50px;
+}
+.mission p{
+    font-size: 15px;
+
+}
+
+.team{
+    margin-top: 50px;
+}
+
+.team img{
+    width: 200px;
+}
+.team h2{
+    color:rgb(57, 107, 109);
+}
+/* end Why */
+
+
+
+   /* Start Paratners */
+
+
+
+   /* end Paratners */
+  
+  /****Footer Start*****/
+  
+  .footer{
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.96);
+  } 
+.icon-footer-item i{
+}
+.icon-footer-item i:hover{
+    width: 20px;
+    height: 20px;
+    color: orange !important;
+    transform: scale(1.5);
+}
+.footer ul li a{
+    height: 30px;
+    color: white;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    text-decoration: none;
+    color: orange;
+}
+.ftitle p{
+    width: 125px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: -15px;
+    /*border-bottom: 2px solid orange;*/
+}
+.ftitle hr{
+    width: 120px;
+    color: orange !important;
+    background-color: orange !important;
+}
+.foter ul{
+    list-style-type: none;
+    padding: 0;
+}
+.foter ul li{
+    padding-bottom: 5px;
+    color: white;
+}
+.foter .add li{
+    padding-bottom: 10px;
+}
+.foter span{
+    color: orange;
+}
+.icon-footer-list>li{
+    display: inline-block;
+    width: 50px;
+    line-height: 50px;}
+.footerbar{
+    background: #2c2c2c;
+}
+.copyright{
+    line-height: 50px;
+    margin-left: 30px;
+}
+/*****Footer End*****/
+
+/*
+Aout */
+
+@media (max-width: 260px){
+    .team img{
+        width: 100px;
+    }
+}
+@media (max-width: 500px){
+    .footer > .fotter{
+        width: 100%;
+    }
+}
+.locations{
+    width:230px;
+    height: 200px;
+    border: 1px solid grey;
+
+}
+.locations{
+    width: 230px;
+    height: 200px;
+    background-color: grey;
+}
+
+@media (max-width: 768px){
+    .locations{
+        width: 100%
+    }
+    .dropdown-menu{
+        width:100%;
+    }
+
+
+}
+
+/*PopUp*/
+
+
+.dialogmain1{
+    padding: 0 !important;
+}
+.controlform{
+    padding: 0 !important;
+}
+.loginform{
+    margin: 0;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 15px 0 rgba(0,0,0,0.12) !important;
+}
+.loginform .close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+.loginform .close:hover{
+    color: red;
+    transform: scale(1.3);
+}
+.form-control{
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+.blue{
+    color: #337ab7;
+}
+.inner{margin:0 !important;}
+.modaldialog{
+    width: 330px !important;
+    margin:50px auto !important;
+}
+
+/*endPop*/
+
+/*head_img*/
+
+
+
+.head_img{
+    height:150px;
+    text-align: center;
+    z-index: 0;
+    padding-top: 35px;
+    width:100%;
+    font:italic bold 35px Geogria,Times New Roman,Times,serif;
+}
+.head_img h2::before{
+    margin-bottom: 20px;
+    content: url("../photo/head/ka.png");
+  }
+.head_img h2::after{
+    content: url("../photo/head/k.png");
+
+}
+.sec_img{
+    position: absolute;
+    transform :rotateY(-180deg);
+
+}
+@media (max-width: 448px){
+    .head_img h2::before{
+        content:'' ;
+    }
+    .head_img{
+        padding-top: 20px;
+    }
+
+}
+@media (max-width: 448px){
+    .head_img h2::after{
+        content:'' ;
+    }
+    .head_img{
+     padding-top: 20px;
+        height: 100px;
+}
+@media (max-width: 768px) {
+    .head_img h2{
+        content: "";
+    }
+    .head_img{
+        padding-top: 20px;
+        height: 100px;
+    }
+}
+/*end head_img*/
+
+   /*About*/
+    .history h1{
+        font:italic bold 29px Georgia,Times New Romanm,Times,serif;
+    }
+    .mission h1{
+        font:italic bold 29px Georgia,Times New Romanm,Times,serif;
+    }
+    .team h1{
+        font:italic bold 29px Georgia,Times New Romanm,Times,serif;
+    }
+        /*end About*/
+
+
+     /*Start Animation*/
+
+.view {
+
+    float: left;
+    /*border: 10px solid #fff;*/
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 1px 2px #e6e6e6;
+}
+.view .mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+.view-first img {
+    transition: all 0.2s linear;
+    width: 100% ;
+    height: 100%;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease-in-out;
+}
+
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first a.info {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first:hover img {
+    transform: scale(1.1);
+}
+.view-first:hover .mask {
+    opacity: 1;
+}
+.view-first:hover h2{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.why .image{
+    transition: 1s;
+    opacity: 0.7;
+}
+.why .image:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.why .im{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*end Animation*/
+
+
+   /*  Blog Update */
+
+       .i span{
+            color:orange;
+            font-size:17px;
+       }
+
+   /*  end Blog Update */
+.fa-phone{
+    transition: 1s;
+}
+.icon:hover .fa-phone{
+    color: white;
+    background-color: orange;
+}
+.fa-map-marker{
+    transition: 1s;
+}
+.icon:hover .fa-map-marker{
+    color: white;
+    background-color: orange;
+}
+.fa-envelope{
+    transition: 1s;
+}
+.icon:hover .fa-envelope{
+    color: white;
+    background-color: orange;
+}
+.icon:hover{
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+}
+ h4 {
+     font: bold 29px Geogria, Times New Roman, Times, serif;
+ }}

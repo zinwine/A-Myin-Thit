@@ -1,0 +1,36 @@
+.complete-proj {
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    left: 70px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.main-letter {
+    text-align: justify;
+}
+
+.small-proj .media-left img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.previous:hover {
+    color: orange;
+}
+
+.main-proj img {
+    width: 660px;
+    height: 300px !important;
+}
+
+@media (max-width: 768px) {
+    .previous {
+        margin-top: 0px;
+    }
+}
+
+.small-proj img {
+    height: auto;
+}

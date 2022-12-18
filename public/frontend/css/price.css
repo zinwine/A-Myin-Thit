@@ -1,0 +1,36 @@
+.aaa{
+    padding-bottom: 7px;
+}
+@media(max-width: 990px){
+    .aaa{
+        padding-bottom: 40px;
+    }
+}
+.bbb{
+    border:1px solid #ccc;
+    padding-bottom: 22px;
+}
+@media (max-width: 768px) {
+
+    .btn-warning{
+        margin-bottom: 10px;
+    }
+}
+.bbb p{
+    margin:10px;
+    font-size: 16px;
+}
+@media(min-width: 990px) and (max-width: 1200px){
+    .aaa{
+        padding-bottom: 43px;
+    }
+}
+@media(max-width: 991px){
+    .appointment{
+        margin-bottom: 20px;
+    }
+}
+.aaa .price_img:hover{
+    border: 8px solid #bbb;
+
+}

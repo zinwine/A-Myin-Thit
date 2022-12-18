@@ -1,0 +1,26 @@
+
+.book form select{
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .book form select{
+        width: 100%;
+    }
+}
+.book form textarea{
+   width: 500px;
+    height: 300px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+@media (max-width:768px) {
+    .book form textarea{
+        width: 100%;
+    }
+}
+.book .locations{
+    margin-left: 0;
+}
+.book p{
+    padding-top:20px ;
+}
